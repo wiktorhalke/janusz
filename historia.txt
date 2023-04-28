@@ -1,0 +1,238 @@
+    1  git init newRepo
+    2  cd newRepo/
+    3  clear
+    4  touch krystyna
+    5  cd ..
+    6  rm -rf newRepo/
+    7  clear
+    8  git clone [200~
+    9  clear
+   10  git clone https://github.com/PiotrRozczka/newRepo
+   11  cd newRepo/
+   12  touch krystyna
+   13  git add .
+   14  git commit -m "krystyna"
+   15  git config --global user.name "PiotrRozczka"
+   16  git config --global user.email "prozczka@gmail.com"
+   17  clear
+   18  git commit -m "krystyna"
+   19  clear
+   20  git push
+   21  clear
+   22  rm -rf README.md 
+   23  clear
+   24  git add .
+   25  git commit -m "remove readme"
+   26  clear
+   27  git push
+   28  clear
+   29  ls
+   30  git status
+   31  git log --format="%an($s)"
+   32  git log --format="%an(%s)"
+   33  echo "janusz" >> krystyna 
+   34  git add .
+   35  git status
+   36  git commit -m "dopisanie"
+   37  git log --format="%an(%s)"
+   38  git log --patch
+   39  git log --oneline --patch
+   40  clear
+   41  git log --patch
+   42  clear
+   43  git log --summary
+   44  git log --author="janusz" --3 krystyna
+   45  git log --author="janusz" -3 krystyna
+   46  clear
+   47  git shortlog
+   48  git log --oneline -2
+   49  git log -- zsk
+   50  git log
+   51  git log -- commit
+   52  git log --grep="zsk"
+   53  git log --grep="commit"
+   54  clear
+   55  git log --grep="zsk"
+   56  history >> file.txt
+   57  clear
+   58  ls
+   59  mkdir mikosz
+   60  cd mikosz
+   61  clear
+   62  git branch
+   63  git init
+   64  clear
+   65  git init
+   66  clear
+   67  git branch
+   68  git branch main
+   69  git checkout main
+   70  clear
+   71  git branch
+   72  git branch main
+   73  git branch -help
+   74  clear
+   75  touch plik1
+   76  git add . 
+   77  git status
+   78  clear
+   79  git branch
+   80  git branch newbranch
+   81  cd desktop
+   82  cd colab
+   83  git clone https://github.com/bkolaj/test.git
+   84  cd test
+   85  git pull 
+   86  git pull
+   87  touch plik3.txt
+   88  git add .
+   89  git commit -m "komit2"
+   90  git push .
+   91  git push
+   92  git push
+   93  touch BartekMalaPalka
+   94  git add .
+   95  git commit -m "SsijGo"
+   96  git push
+   97  git clone https://github.com/PiotrRozczka/3eg2
+   98  git clone https://github.com/PiotrRozczka/3eg2
+   99  git clone https://github.com/PiotrRozczka/3eg2
+  100  clear
+  101  cd 3eg2/
+  102  clear
+  103  clear
+  104  code .
+  105  clear
+  106  git checkout zsk
+  107  clear
+  108  ls
+  109  git add .
+  110  git commit -m "branch zsk"
+  111  git checkout main
+  112  code .
+  113  git add .
+  114  git commit
+  115  clear
+  116  git merge zsk
+  117  code .
+  118  clear
+  119  git clone https://github.com/PiotrRozczka/zsk
+  120  clea
+  121  clear
+  122  touch plik
+  123  mkdir kat
+  124  rm -rf plik 
+  125  rm -rf kat/
+  126  clear
+  127  cd zsk/
+  128  clear
+  129  ls
+  130  touch plik
+  131  mkdir kat
+  132  cd kat/
+  133  touch plik1.txt
+  134  clear
+  135  cd ..
+  136  clear
+  137  git add .
+  138  git commit 
+  139  clear
+  140  git push
+  141  touch plik3
+  142  git add .
+  143  git commit -m "added plik3"
+  144  git push
+  145  git pull
+  146  clear
+  147  ls
+  148  git push
+  149  nano plik3
+  150  clear
+  151  git add .
+  152  git commit 
+  153  clear
+  154  git push
+  155  git pull
+  156  git push
+  157  git pull
+  158  git push
+  159  git pull
+  160  git add .
+  161  git pull
+  162  git commit 
+  163  git push
+  164  code .
+  165  npm create vite@latest
+  166  npx create-react-app
+  167  npx create-react-app app
+  168  commit
+  169  zsk
+  170  git clone [200~
+  171  git clone https://github.com/FilipKielar/rozczka
+  172  ls
+  173  cd rozczka
+  174  ls
+  175  echo 'bartek' > bartek
+  176  echo 'bartek' > plik
+  177  git push
+  178  git add . 
+  179  git commit -m
+  180  git commit -m "bartoszek"
+  181  git push
+  182  git commit -m " merge conflict"
+  183  git push
+  184  git branch origin koledzy
+  185  git branch
+  186  git branch
+  187  git push merge
+  188  cat plik
+  189  git push merge
+  190  cat plkik 
+  191  cat plik 
+  192  git branch c
+  193  git checkout c
+  194  echo "c" >> plik
+  195  cat plik
+  196  git commit -m "dodanie 
+  197  "
+  198  git add
+  199  git add .
+  200  git commit -m "dodanie"
+  201  git checkout master
+  202  git merge c
+  203  git pull
+  204  git push 
+  205  git push origin c
+  206  git checkout main
+  207  echo c >> plik 
+  208  git add .
+  209  git commit -m " test "
+  210  git push 
+  211  git push code
+  212  history>BartoszKolaj.txt
+  213  history
+  214  history>bartoszkolaj.txt
+  215  history>Bartosz_Kolaj.txt
+  216  git clone https://github.com/wiktorhalke/janusz.git
+  217  echo "zawartosc" >> plik.txt
+  218  git add .
+  219  cd janusz
+  220  touch plik
+  221  git add .
+  222  git commit -m "testowy commit"
+  223  git push origin main
+  224  git push origin main
+  225  touch file.txt
+  226  nano file.txt
+  227  cd janusz
+  228  echo "Halke" >> file.txt
+  229  git add .
+  230  git commit -m "dodanie file"
+  231  git push origin main
+  232  git log--author="banan" -2
+  233  git log -- author="banan"-2
+  234  echo "konfikt1" >> konflikt.txt
+  235  git add .
+  236  git commit -m "konflikt"
+  237  git push origin main
+  238  history > historia.txt
